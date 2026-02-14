@@ -93,9 +93,21 @@ function extractF1BlockName(raw){
   // If the left part still contains "FORMULA 1" somewhere, remove it (sometimes it's not at the start)
   location = location.replace(/\bformula\s*1\b/i, "").trim();
 
-  // Reduce sponsor noise: keep last 1–4 words
-  const words = location.split(" ").filter(Boolean);
-  const keep = Math.min(4, Math.max(1, words.length));
+  // Sponsor/noise stripping:
+  // Some feeds include sponsors in the race name (e.g., "Qatar Airways Australian Grand Prix").
+  // We strip common sponsor tokens BEFORE taking the tail words, so all sessions collapse into one group.
+  const SPONSOR_WORDS = new Set([
+    "airways","heineken","aramco","rolex","pirelli","lenovo","aws","crypto","cryptocom","crypto.com",
+    "gulf","etihad","emirates","stc","petronas","dhl","paddock","club","msc","cruises",
+    "qatar" // appears both as a sponsor and a location; fallback below keeps location when needed
+  ]);
+
+  const rawWords = location.split(" ").filter(Boolean);
+  const cleanedWords = rawWords.filter(w => !SPONSOR_WORDS.has(w.toLowerCase()));
+  const words = cleanedWords.length ? cleanedWords : rawWords;
+
+  // Keep the last 1–3 words (enough for "Saudi Arabian", "United States", "Las Vegas", etc.)
+  const keep = Math.min(3, Math.max(1, words.length));
   location = words.slice(-keep).join(" ");
 
   // Title-case (preserve acronyms <=3 chars that are all caps)
