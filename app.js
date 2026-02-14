@@ -161,7 +161,10 @@ function initCalendar() {
 
     // Make calendar less noisy:
     displayEventTime: false,   // hides 1:30a etc
-    dayMaxEvents: true,        // collapses extra events under “+ more”
+    dayMaxEvents: true,
+
+    showNonCurrentDates: false,
+    fixedWeekCount: false,        // collapses extra events under “+ more”
 
     events: allEvents.map(e => ({
       title: e.title,
