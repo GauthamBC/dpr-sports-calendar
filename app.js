@@ -63,43 +63,10 @@ function titleCaseSmart(phrase){
     .split(" ")
     .filter(Boolean)
     .map(w => {
-      // keep short all-caps acronyms
-      if (w.length <= 3 && w === w.toUpperCase()) return w;
+      if (w.length <= 3 && w === w.toUpperCase()) return w; // keep short acronyms
       return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
     })
     .join(" ");
-}
-
-function canonicalizeLocation(loc){
-  const l = normalizeKey(loc);
-
-  // Common drift normalization (expand as needed)
-  if (/\bbahrain\b/.test(l)) return "Bahrain";
-  if (/\bsaudi\b/.test(l)) return "Saudi Arabian";
-  if (/\baustralia|australian\b/.test(l)) return "Australian";
-  if (/\bjapan|japanese\b/.test(l)) return "Japanese";
-  if (/\bchina|chinese\b/.test(l)) return "Chinese";
-  if (/\bmiami\b/.test(l)) return "Miami";
-  if (/\bemilia\b/.test(l) || /\bimola\b/.test(l)) return "Emilia Romagna";
-  if (/\bmonaco\b/.test(l)) return "Monaco";
-  if (/\bcanada|canadian\b/.test(l)) return "Canadian";
-  if (/\bspain|spanish\b/.test(l)) return "Spanish";
-  if (/\baustria|austrian\b/.test(l)) return "Austrian";
-  if (/\bgreat britain|british|silverstone\b/.test(l)) return "British";
-  if (/\bhungary|hungarian\b/.test(l)) return "Hungarian";
-  if (/\bbelgium|belgian\b/.test(l)) return "Belgian";
-  if (/\bnetherlands|dutch\b/.test(l)) return "Dutch";
-  if (/\bitaly|italian|monza\b/.test(l)) return "Italian";
-  if (/\bsingapore\b/.test(l)) return "Singapore";
-  if (/\busa|united states|las vegas|austin\b/.test(l)) return "United States";
-  if (/\bmexico|mexican\b/.test(l)) return "Mexico City";
-  if (/\bbrazil|sao paulo|brazilian\b/.test(l)) return "São Paulo";
-  if (/\babu dhabi\b/.test(l)) return "Abu Dhabi";
-  if (/\bazerbaijan|baku\b/.test(l)) return "Azerbaijan";
-  if (/\bqatar\b/.test(l)) return "Qatar";
-  if (/\bstc\b/.test(l) && /\bsaudi\b/.test(l)) return "Saudi Arabian";
-
-  return titleCaseSmart(loc);
 }
 
 function extractF1BlockName(raw){
@@ -109,58 +76,85 @@ function extractF1BlockName(raw){
   // Ignore subscription/system events
   if (/in your calendar/i.test(t)) return null;
 
-  // Remove session suffix & year
+  // Remove session suffix + year + emoji clutter
   t = stripSessionSuffix(t);
   t = t.replace(/\b20\d{2}\b/g, "").trim();
+  t = t.replace(/[🏁🏎️🔥📅]/g, "").trim();
 
-  // Remove leading "Formula 1"
-  t = cleanF1Prefix(t);
+  // Normalize punctuation for matching
+  let norm = normalizeKey(
+    t.replace(/[’']/g, "'")
+     .replace(/[|–—,:;()]/g, " ")
+     .replace(/\s+/g, " ")
+  );
+
+  // Remove "formula 1" from normalized scan text
+  norm = norm.replace(/\bformula\s*1\b/g, " ").replace(/\s+/g, " ").trim();
 
   // 1) Testing blocks
-  if (/testing/i.test(t)) {
-    const m = t.match(/(pre[-\s]?season\s+testing\s*\d*)/i) || t.match(/(testing\s*\d*)/i);
-    if (m) {
-      const name = m[1].replace(/\s+/g, " ").trim();
-      return titleCaseSmart(name);
-    }
-    return "Testing";
+  if (/pre[- ]?season.*testing|testing/.test(norm)) return "Testing";
+
+  // 2) Hard canonical map (fixes sponsor/language drift from May onward)
+  const GP_MAP = [
+    { re: /\baustralia|australian|melbourne\b/, name: "Australian Grand Prix" },
+    { re: /\bchina|chinese|shanghai\b/, name: "Chinese Grand Prix" },
+    { re: /\bjapan|japanese|suzuka\b/, name: "Japanese Grand Prix" },
+    { re: /\bbahrain|sakhir\b/, name: "Bahrain Grand Prix" },
+    { re: /\bsaudi\b|jeddah/, name: "Saudi Arabian Grand Prix" },
+    { re: /\bmiami\b/, name: "Miami Grand Prix" },
+    { re: /\bemilia\b|\bromagna\b|imola|made in italy/, name: "Emilia Romagna Grand Prix" },
+    { re: /\bmonaco\b|monte carlo/, name: "Monaco Grand Prix" },
+    { re: /\bcanada|canadian|montreal|gilles villeneuve\b/, name: "Canadian Grand Prix" },
+    { re: /\bspain|spanish|barcelona|catalunya\b/, name: "Spanish Grand Prix" },
+    { re: /\baustria|austrian|spielberg|red bull ring\b/, name: "Austrian Grand Prix" },
+    { re: /\bgreat britain|british|silverstone\b/, name: "British Grand Prix" },
+    { re: /\bbelgium|belgian|spa[- ]francorchamps|spa francorchamps\b/, name: "Belgian Grand Prix" },
+    { re: /\bhungary|hungarian|hungaroring\b/, name: "Hungarian Grand Prix" },
+    { re: /\bnetherlands|dutch|zandvoort\b/, name: "Dutch Grand Prix" },
+    { re: /\bitaly|italian|monza\b/, name: "Italian Grand Prix" },
+    { re: /\bazerbaijan|baku\b/, name: "Azerbaijan Grand Prix" },
+    { re: /\bsingapore|marina bay\b/, name: "Singapore Grand Prix" },
+    { re: /\busa|united states|austin|cota\b/, name: "United States Grand Prix" },
+    { re: /\bmexico|mexican|mexico city|hermanos rodriguez\b/, name: "Mexico City Grand Prix" },
+    { re: /\bbrazil|brazilian|sao paulo|interlagos\b/, name: "São Paulo Grand Prix" },
+    { re: /\blas vegas\b/, name: "Las Vegas Grand Prix" },
+    { re: /\bqatar|lusail\b/, name: "Qatar Grand Prix" },
+    { re: /\babu dhabi|yas marina\b/, name: "Abu Dhabi Grand Prix" }
+  ];
+
+  for (const row of GP_MAP) {
+    if (row.re.test(norm)) return row.name;
   }
 
-  // 2) Grand Prix weekends (supports language variants)
-  const rgx = /(.+?)\s+(grand\s+prix|gran\s+premio|grande\s+pr[êe]mio)\b/i;
-  const m = t.match(rgx);
+  // 3) Fallback parser for unseen titles
+  let s = cleanF1Prefix(t);
+  s = s.replace(/\bformula\s*1\b/ig, " ").replace(/\s+/g, " ").trim();
+
+  const m = s.match(/(.+?)\s+(grand\s+prix|gran\s+premio|grande\s+premio|grand\s+prix\s+de)\b/i);
   if (!m) return null;
 
-  let location = m[1].trim();
+  let location = m[1]
+    .replace(/[|–—,:;()]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 
-  // Remove FORMULA 1 if it appears again
-  location = location.replace(/\bformula\s*1\b/ig, "").trim();
-
-  // Remove punctuation-ish leftovers
-  location = location.replace(/[|–—,:;]+/g, " ").replace(/\s+/g, " ").trim();
-
-  // Remove common sponsor / noise tokens
-  const SPONSOR_WORDS = new Set([
-    "qatar", "qatarairways", "qatar-airways", "airways",
-    "heineken", "aramco", "rolex", "pirelli", "lenovo", "aws",
-    "crypto", "cryptocom", "crypto.com", "etihad", "emirates",
-    "petronas", "dhl", "stc", "gulf", "moet", "moët"
+  const DROP = new Set([
+    "qatar","airways","heineken","aramco","rolex","pirelli","lenovo","aws",
+    "crypto","cryptocom","crypto.com","dhl","stc","gulf","tag","moet","moët",
+    "de","del","della","dell","dell'","e","in","the","and","of"
   ]);
 
-  const rawWords = location.split(" ").filter(Boolean);
-  const cleanedWords = rawWords.filter(w => !SPONSOR_WORDS.has(normalizeKey(w).replace(/\./g, "")));
+  const words = location
+    .split(" ")
+    .filter(Boolean)
+    .filter(w => !DROP.has(normalizeKey(w)));
 
-  // If aggressive cleanup removes too much, fallback gracefully
-  const words = cleanedWords.length ? cleanedWords : rawWords;
+  if (!words.length) return "Grand Prix";
 
-  // Keep tail words so we retain country/location, not sponsor prefix
   const keep = Math.min(3, Math.max(1, words.length));
-  location = words.slice(-keep).join(" ");
+  const loc = words.slice(-keep).join(" ");
 
-  // Canonicalize naming drift
-  const canonical = canonicalizeLocation(location);
-
-  return `${canonical} Grand Prix`;
+  return `${titleCaseSmart(loc)} Grand Prix`;
 }
 
 // ---------------- Grouping ----------------
@@ -186,7 +180,7 @@ function buildF1Groups(events){
     if (!name) continue;
 
     const day = startOfDay(toDate(e.start));
-    const monthBucket = `${day.getFullYear()}-${day.getMonth()}`; // IMPORTANT
+    const monthBucket = `${day.getFullYear()}-${day.getMonth()}`;
     const key = `${monthBucket}||${normalizeKey(name)}`;
 
     const g = map.get(key) || {
@@ -260,8 +254,10 @@ function renderHighlights(monthStart, monthEnd) {
     if (g._hasSprint) flags.push("Sprint");
     const summary = flags.length ? ` • ${flags.join(" / ")}` : "";
 
+    const safeTitle = String(g.title || "").replace(/^[🏁🏎️\s]+/g, "");
+
     card.innerHTML = `
-      <div class="title">🏎️ 🏁 ${g.title}</div>
+      <div class="title">🏎️ ${safeTitle}</div>
       <div class="meta">
         <span class="pill-date pill-f1">📅 ${formatRange(g.start, g.end)}</span>
         <span class="pill">🔥 F1${summary}</span>
