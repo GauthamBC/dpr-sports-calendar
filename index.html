@@ -31,6 +31,30 @@
     .pill{display:inline-flex;align-items:center;border-radius:999px;padding:2px 8px;font-weight:700;background:#e7fff1;color:#007548}
 
     .cal{margin-top:16px;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:12px;box-shadow:0 10px 24px rgba(15,23,42,0.06)}
+  
+    /* ===== Monthly highlights horizontal scroller (NEW) ===== */
+    #highlights{
+      display:flex;
+      gap:12px;
+      overflow-x:auto;
+      padding-bottom:10px;
+      scroll-snap-type:x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+    #highlights .card{
+      flex: 0 0 auto;
+      width: 320px;
+      max-width: 86vw;
+      scroll-snap-align:start;
+    }
+    /* Sleek red scrollbar */
+    #highlights::-webkit-scrollbar{ height: 10px; }
+    #highlights::-webkit-scrollbar-track{ background: rgba(225,6,0,0.08); border-radius:999px; }
+    #highlights::-webkit-scrollbar-thumb{ background: rgba(225,6,0,0.55); border-radius:999px; }
+    #highlights::-webkit-scrollbar-thumb:hover{ background: rgba(225,6,0,0.75); }
+    /* Firefox */
+    #highlights{ scrollbar-color: rgba(225,6,0,0.55) rgba(225,6,0,0.08); scrollbar-width: thin; }
+
   </style>
 </head>
 <body>
