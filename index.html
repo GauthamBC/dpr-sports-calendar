@@ -19,6 +19,17 @@
     .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:12px 12px 14px;box-shadow:0 10px 24px rgba(15,23,42,0.06)}
     .card .title{font-weight:800}
     .meta{margin-top:6px;color:#475569;display:flex;gap:10px;flex-wrap:wrap;font-size:14px}
+    .section-title{margin:18px 0 10px;font-size:16px}
+    .pill-date{display:inline-flex;align-items:center;border-radius:999px;padding:4px 10px;font-weight:800}
+    .pill-f1{background:#ffe7ea;color:#b40012;border:1px solid rgba(180,0,18,.18)}
+    .card{position:relative}
+    .card.f1{border-color:rgba(180,0,18,.22)}
+    .card.f1::before{
+      content:"";
+      position:absolute;left:0;top:0;bottom:0;width:6px;
+      background:#e10600;border-radius:16px 0 0 16px;
+    }
+    .meta{align-items:center}
     .ideas{margin-top:8px;font-size:14px;color:#334155}
     .pill{display:inline-flex;align-items:center;border-radius:999px;padding:2px 8px;font-weight:700;background:#e7fff1;color:#007548}
 
@@ -29,14 +40,10 @@
   <div class="wrap">
     <div class="topbar">
       <h1>🏆 DPR Sports Events Calendar</h1>
-      <div class="chips" id="chips">
-        <button class="chip active" data-days="7">Next 7 days</button>
-        <button class="chip" data-days="14">Next 14 days</button>
-        <button class="chip" data-days="30">Next 30 days</button>
-      </div>
     </div>
-
-    <div class="cards" id="upcoming"></div>
+    
+    <h2 class="section-title" id="monthTitle">Monthly highlights</h2>
+    <div class="cards" id="highlights"></div>
 
     <div class="cal">
       <div id="calendar"></div>
