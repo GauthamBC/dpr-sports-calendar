@@ -1,0 +1,9 @@
+{
+  "feeds": [
+    {
+      "name": "Formula 1",
+      "sport": "F1",
+      "url": "https://ics.ecal.com/ecal-sub/699077571b11c70002744cc8/Formula%201.ics"
+    }
+  ]
+}
