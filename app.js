@@ -2,14 +2,12 @@ const HIGHLIGHTS = document.getElementById("highlights");
 const MONTH_TITLE = document.getElementById("monthTitle");
 
 let allEvents = [];
-let calendar; // FullCalendar instance
+let calendar;
 
-// Precomputed weekend-style groups (e.g., F1 race weekends)
-let f1WeekendGroups = [];
+// Precomputed F1 groups (Grand Prix weekends + Testing blocks)
+let f1Groups = [];
 
-function toDate(d) {
-  return new Date(d);
-}
+function toDate(d) { return new Date(d); }
 
 function startOfDay(dt){
   const d = new Date(dt);
@@ -19,6 +17,14 @@ function startOfDay(dt){
 
 function yyyymm(d){
   return `${d.getFullYear()}-${d.getMonth()}`; // month is 0-based
+}
+
+function normalizeKey(s){
+  return (s || "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function formatRange(start, end) {
@@ -34,80 +40,95 @@ function formatRange(start, end) {
   const yearTxt = s.toLocaleDateString(undefined, optsY);
 
   if (s.toDateString() === e.toDateString()) return `${sTxt}, ${yearTxt}`;
-  if (sameMonth) return `${sTxt}–${e.getDate()}, ${yearTxt}`; // "Mar 6–8, 2026"
+  if (sameMonth) return `${sTxt}–${e.getDate()}, ${yearTxt}`;
   return `${sTxt} – ${eTxt}, ${yearTxt}`;
 }
 
-// ---------- Title normalization (F1-focused) ----------
+// ---------------- F1 name extraction ----------------
 
 function stripSessionSuffix(t){
   return t.replace(/\s*-\s*(Practice\s*\d+|Qualifying|Sprint\s*Race|Sprint\s*Qualifying|Race)\s*$/i, "");
 }
 
-function extractGPName(raw) {
+function cleanF1Prefix(t){
+  // Remove leading "Formula 1" regardless of case and extra spaces
+  return t.replace(/^\s*formula\s*1\s+/i, "").trim();
+}
+
+function extractF1BlockName(raw){
   if (!raw) return null;
   let t = raw.replace(/\s+/g, " ").trim();
-
-  // Remove obvious noise first
-  t = stripSessionSuffix(t);
-  t = t.replace(/^FORMULA\s*1\s+/i, "");
-  t = t.replace(/\b20\d{2}\b/g, "").trim(); // remove year tokens like 2026
 
   // Ignore subscription/system events
   if (/in your calendar/i.test(t)) return null;
 
-  // Match variants across languages/diacritics:
-  // - GRAND PRIX
-  // - GRAN PREMIO
-  // - GRANDE PRÊMIO / GRANDE PREMIO
-  const rgx = /(.+?)\s+(GRAND\s+PRIX|GRAN\s+PREMIO|GRANDE\s+PR[ÊE]MIO)\b/i;
-  const m = t.match(rgx);
-  if (!m) {
-    // If we can't detect a GP token, treat as non-weekend item (testing etc.)
-    return null;
+  // Remove session suffix & year
+  t = stripSessionSuffix(t);
+  t = t.replace(/\b20\d{2}\b/g, "").trim();
+
+  // Remove leading "Formula 1"
+  t = cleanF1Prefix(t);
+
+  // 1) Testing blocks (so Feb isn't empty)
+  // Examples: "AROMCO PRE-SEASON TESTING 1", "ARAMCO PRE-SEASON TESTING 2"
+  if (/testing/i.test(t)) {
+    // Keep just "... Testing X"
+    const m = t.match(/(pre[-\s]?season\s+testing\s*\d*)/i) || t.match(/(testing\s*\d*)/i);
+    if (m) {
+      const name = m[1].replace(/\s+/g, " ").trim();
+      // Title-case
+      const titled = name.replace(/\b\w/g, c => c.toUpperCase());
+      return titled;
+    }
+    return "Testing";
   }
 
-  // Location phrase is everything before the token (often includes sponsors)
+  // 2) Grand Prix weekends (supports languages/diacritics)
+  const rgx = /(.+?)\s+(grand\s+prix|gran\s+premio|grande\s+pr[êe]mio)\b/i;
+  const m = t.match(rgx);
+  if (!m) return null;
+
   let location = m[1].trim();
 
-  // Try to trim sponsor prefixes by keeping the LAST 1–4 words of the location chunk
-  const words = location.split(" ").filter(Boolean);
+  // If the left part still contains "FORMULA 1" somewhere, remove it (sometimes it's not at the start)
+  location = location.replace(/\bformula\s*1\b/i, "").trim();
 
+  // Reduce sponsor noise: keep last 1–4 words
+  const words = location.split(" ").filter(Boolean);
   const keep = Math.min(4, Math.max(1, words.length));
   location = words.slice(-keep).join(" ");
 
-  // Title-case location a bit (preserve all-caps acronyms)
-  const titled = location
+  // Title-case (preserve acronyms <=3 chars that are all caps)
+  const titledLoc = location
     .split(" ")
     .map(w => (w.length <= 3 && w === w.toUpperCase()) ? w : (w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()))
     .join(" ");
 
-  return `${titled} Grand Prix`;
+  return `${titledLoc} Grand Prix`;
 }
 
-// ---------- Grouping logic ----------
+// ---------------- Grouping ----------------
 
-function buildF1WeekendGroups(events){
+function buildF1Groups(events){
   const map = new Map();
 
   for (const e of events) {
     if ((e.sport || "").toUpperCase() !== "F1") continue;
 
-    const gpName = extractGPName(e.title);
-    if (!gpName) continue;
+    const name = extractF1BlockName(e.title);
+    if (!name) continue;
 
-    const start = startOfDay(toDate(e.start));
-    const year = start.getFullYear();
-    const key = `${year}||${gpName.toLowerCase()}`;
+    const day = startOfDay(toDate(e.start));
+    const year = day.getFullYear();
+    const key = `${year}||${normalizeKey(name)}`;
 
     const g = map.get(key) || {
       sport: "F1",
-      title: gpName,
-      source: e.source,
+      title: name,
       items: [],
       dateSet: new Set(),
-      start,
-      end: start,
+      start: day,
+      end: day,
       primaryMonth: null,
       _hasRace: false,
       _hasQuali: false,
@@ -115,10 +136,10 @@ function buildF1WeekendGroups(events){
     };
 
     g.items.push(e);
-    g.dateSet.add(start.toISOString().slice(0,10)); // yyyy-mm-dd
+    g.dateSet.add(day.toISOString().slice(0,10));
 
-    if (start < g.start) g.start = start;
-    if (start > g.end) g.end = start;
+    if (day < g.start) g.start = day;
+    if (day > g.end) g.end = day;
 
     if (/\-\s*Race\s*$/i.test(e.title)) g._hasRace = true;
     if (/Qualifying/i.test(e.title)) g._hasQuali = true;
@@ -127,6 +148,7 @@ function buildF1WeekendGroups(events){
     map.set(key, g);
   }
 
+  // Determine primary month by majority of UNIQUE days (handles month spillovers)
   const groups = [];
   for (const g of map.values()) {
     const byMonth = new Map();
@@ -143,61 +165,25 @@ function buildF1WeekendGroups(events){
     groups.push(g);
   }
 
-  groups.sort((a,b) => a.start - b.start);
+  // Prefer Race weekends first, then earliest start
+  groups.sort((a,b) => {
+    if (a._hasRace !== b._hasRace) return a._hasRace ? -1 : 1;
+    return a.start - b.start;
+  });
+
   return groups;
-}
-
-/**
- * Generic grouping for non-F1 items (extend later per sport).
- */
-function groupMonthlyHighlightsGeneric(monthStart, monthEnd) {
-  const inMonth = allEvents
-    .map(e => ({...e, _start: toDate(e.start)}))
-    .filter(e => e._start >= monthStart && e._start < monthEnd)
-    .filter(e => (e.sport || "").toUpperCase() !== "F1");
-
-  const groups = new Map();
-
-  for (const e of inMonth) {
-    const sport = e.sport || "Sport";
-    const key = `${sport}||${(e.title || "").toLowerCase()}`;
-
-    const d = startOfDay(e._start);
-    const g = groups.get(key) || {
-      sport,
-      title: e.title || "Event",
-      start: d,
-      end: d,
-      source: e.source,
-      items: []
-    };
-
-    if (d < g.start) g.start = d;
-    if (d > g.end) g.end = d;
-    g.items.push(e);
-    groups.set(key, g);
-  }
-
-  const arr = [...groups.values()];
-  arr.sort((a,b) => a.start - b.start);
-  return arr.slice(0, 8);
 }
 
 function renderHighlights(monthStart, monthEnd) {
   HIGHLIGHTS.innerHTML = "";
-
   const monthName = monthStart.toLocaleDateString(undefined, { month: "long", year: "numeric" });
   MONTH_TITLE.textContent = `Monthly highlights — ${monthName}`;
 
   const monthKey = yyyymm(monthStart);
 
-  const f1InMonth = f1WeekendGroups
+  const groups = f1Groups
     .filter(g => g.primaryMonth === monthKey)
     .slice(0, 8);
-
-  const generic = groupMonthlyHighlightsGeneric(monthStart, monthEnd);
-
-  const groups = [...f1InMonth, ...generic].slice(0, 8);
 
   if (!groups.length) {
     HIGHLIGHTS.innerHTML = `<div class="card"><div class="title">No highlights found</div><div class="meta">Try another month.</div></div>`;
@@ -205,28 +191,21 @@ function renderHighlights(monthStart, monthEnd) {
   }
 
   for (const g of groups) {
-    const sport = g.sport || "Sport";
-    const isF1 = sport.toUpperCase() === "F1";
-
     const card = document.createElement("div");
-    card.className = `card ${isF1 ? "f1" : ""}`;
+    card.className = "card f1";
 
-    let sessionSummary = "";
-    if (isF1) {
-      const flags = [];
-      if (g._hasRace) flags.push("Race");
-      if (g._hasQuali) flags.push("Quali");
-      if (g._hasSprint) flags.push("Sprint");
-      if (flags.length) sessionSummary = ` • ${flags.join(" / ")}`;
-    }
+    const flags = [];
+    if (g._hasRace) flags.push("Race");
+    if (g._hasQuali) flags.push("Quali");
+    if (g._hasSprint) flags.push("Sprint");
+    const summary = flags.length ? ` • ${flags.join(" / ")}` : "";
 
     card.innerHTML = `
-      <div class="title">${isF1 ? "🏎️ " : "🏟️ "}${g.title}</div>
+      <div class="title">🏎️ ${g.title}</div>
       <div class="meta">
-        <span class="pill-date ${isF1 ? "pill-f1" : ""}">📅 ${formatRange(g.start, g.end)}</span>
-        <span class="pill">🔥 ${sport}${sessionSummary}</span>
+        <span class="pill-date pill-f1">📅 ${formatRange(g.start, g.end)}</span>
+        <span class="pill">🔥 F1${summary}</span>
       </div>
-      <div class="ideas">💡 <strong>DPR ideas:</strong> travel cost, fan sentiment, ticket pricing</div>
     `;
 
     HIGHLIGHTS.appendChild(card);
@@ -237,8 +216,8 @@ async function loadEvents() {
   const res = await fetch("./data/events.json", { cache: "no-store" });
   allEvents = await res.json();
 
-  // Precompute weekend-style groupings
-  f1WeekendGroups = buildF1WeekendGroups(allEvents);
+  // Build F1 groups (Grand Prix + Testing)
+  f1Groups = buildF1Groups(allEvents);
 
   initCalendar();
 }
@@ -248,10 +227,8 @@ function initCalendar() {
   calendar = new FullCalendar.Calendar(el, {
     initialView: "dayGridMonth",
     height: "auto",
-
     displayEventTime: false,
     dayMaxEvents: true,
-
     showNonCurrentDates: false,
     fixedWeekCount: false,
 
@@ -267,11 +244,8 @@ function initCalendar() {
     },
 
     eventDidMount(info) {
-      info.el.title = `${info.event.title}\n${info.event.extendedProps.sport || ""}`;
       const sport = info.event.extendedProps.sport;
-      if (sport === "F1") {
-        info.el.style.borderColor = "#e10600";
-      }
+      if (sport === "F1") info.el.style.borderColor = "#e10600";
     }
   });
 
