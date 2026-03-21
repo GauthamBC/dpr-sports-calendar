@@ -1,37 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - Practice 1",
-    "start": "2026-03-06T01:30:00+00:00",
-    "end": "2026-03-06T02:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Australia"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - Practice 2",
-    "start": "2026-03-06T05:00:00+00:00",
-    "end": "2026-03-06T06:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Australia"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - Practice 3",
-    "start": "2026-03-07T01:30:00+00:00",
-    "end": "2026-03-07T02:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Australia"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - Qualifying",
-    "start": "2026-03-07T05:00:00+00:00",
-    "end": "2026-03-07T06:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Australia"
-  },
-  {
     "title": "\ud83c\udfc1 FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - Race",
     "start": "2026-03-08T04:00:00+00:00",
     "end": "2026-03-08T06:00:00+00:00",
@@ -118,86 +86,6 @@
     "sport": "F1",
     "source": "Formula 1",
     "location": "Japan"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026 - Practice 1",
-    "start": "2026-04-10T11:30:00+00:00",
-    "end": "2026-04-10T12:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Bahrain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026 - Practice 2",
-    "start": "2026-04-10T15:00:00+00:00",
-    "end": "2026-04-10T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Bahrain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026 - Practice 3",
-    "start": "2026-04-11T12:30:00+00:00",
-    "end": "2026-04-11T13:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Bahrain"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026 - Qualifying",
-    "start": "2026-04-11T16:00:00+00:00",
-    "end": "2026-04-11T17:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Bahrain"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026 - Race",
-    "start": "2026-04-12T15:00:00+00:00",
-    "end": "2026-04-12T17:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Bahrain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026 - Practice 1",
-    "start": "2026-04-17T13:30:00+00:00",
-    "end": "2026-04-17T14:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Saudi Arabia"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026 - Practice 2",
-    "start": "2026-04-17T17:00:00+00:00",
-    "end": "2026-04-17T18:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Saudi Arabia"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026 - Practice 3",
-    "start": "2026-04-18T13:30:00+00:00",
-    "end": "2026-04-18T14:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Saudi Arabia"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026 - Qualifying",
-    "start": "2026-04-18T17:00:00+00:00",
-    "end": "2026-04-18T18:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Saudi Arabia"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026 - Race",
-    "start": "2026-04-19T17:00:00+00:00",
-    "end": "2026-04-19T19:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Saudi Arabia"
   },
   {
     "title": "\ud83c\udfce FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 - Practice 1",
