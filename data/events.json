@@ -1,45 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026 - Practice 1",
-    "start": "2026-06-12T11:30:00+00:00",
-    "end": "2026-06-12T12:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026 - Practice 2",
-    "start": "2026-06-12T15:00:00+00:00",
-    "end": "2026-06-12T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026 - Practice 3",
-    "start": "2026-06-13T10:30:00+00:00",
-    "end": "2026-06-13T11:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026 - Qualifying",
-    "start": "2026-06-13T14:00:00+00:00",
-    "end": "2026-06-13T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026 - Race",
-    "start": "2026-06-14T13:00:00+00:00",
-    "end": "2026-06-14T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
     "title": "\ud83c\udfce FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 - Practice 1",
     "start": "2026-06-26T11:30:00+00:00",
     "end": "2026-06-26T12:30:00+00:00",
