@@ -1,45 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 - Practice 1",
-    "start": "2026-06-26T11:30:00+00:00",
-    "end": "2026-06-26T12:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Austria"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 - Practice 2",
-    "start": "2026-06-26T15:00:00+00:00",
-    "end": "2026-06-26T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Austria"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 - Practice 3",
-    "start": "2026-06-27T10:30:00+00:00",
-    "end": "2026-06-27T11:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Austria"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 - Qualifying",
-    "start": "2026-06-27T14:00:00+00:00",
-    "end": "2026-06-27T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Austria"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 - Race",
-    "start": "2026-06-28T13:00:00+00:00",
-    "end": "2026-06-28T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Austria"
-  },
-  {
     "title": "\ud83c\udfce FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - Practice 1",
     "start": "2026-07-03T11:30:00+00:00",
     "end": "2026-07-03T12:30:00+00:00",
@@ -320,7 +280,7 @@
     "location": "Azerbaijan"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026 - Practice 1",
+    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026 - Practice 0",
     "start": "2026-10-09T08:30:00+00:00",
     "end": "2026-10-09T09:30:00+00:00",
     "sport": "F1",
