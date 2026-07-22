@@ -1,45 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - Practice 1",
-    "start": "2026-07-03T11:30:00+00:00",
-    "end": "2026-07-03T12:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United Kingdom"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - Sprint Qualification",
-    "start": "2026-07-03T15:30:00+00:00",
-    "end": "2026-07-03T16:14:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United Kingdom"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - Sprint Race",
-    "start": "2026-07-04T11:00:00+00:00",
-    "end": "2026-07-04T12:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United Kingdom"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - Qualifying",
-    "start": "2026-07-04T15:00:00+00:00",
-    "end": "2026-07-04T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United Kingdom"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - Race",
-    "start": "2026-07-05T14:00:00+00:00",
-    "end": "2026-07-05T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United Kingdom"
-  },
-  {
     "title": "\ud83c\udfce FORMULA 1 MO\u00cbT & CHANDON BELGIAN GRAND PRIX 2026 - Practice 1",
     "start": "2026-07-17T11:30:00+00:00",
     "end": "2026-07-17T12:30:00+00:00",
