@@ -1,45 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 MO\u00cbT & CHANDON BELGIAN GRAND PRIX 2026 - Practice 1",
-    "start": "2026-07-17T11:30:00+00:00",
-    "end": "2026-07-17T12:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Belgium"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 MO\u00cbT & CHANDON BELGIAN GRAND PRIX 2026 - Practice 2",
-    "start": "2026-07-17T15:00:00+00:00",
-    "end": "2026-07-17T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Belgium"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 MO\u00cbT & CHANDON BELGIAN GRAND PRIX 2026 - Practice 3",
-    "start": "2026-07-18T10:30:00+00:00",
-    "end": "2026-07-18T11:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Belgium"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 MO\u00cbT & CHANDON BELGIAN GRAND PRIX 2026 - Qualifying",
-    "start": "2026-07-18T14:00:00+00:00",
-    "end": "2026-07-18T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Belgium"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 MO\u00cbT & CHANDON BELGIAN GRAND PRIX 2026 - Race",
-    "start": "2026-07-19T13:00:00+00:00",
-    "end": "2026-07-19T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Belgium"
-  },
-  {
     "title": "\ud83c\udfce FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026 - Practice 1",
     "start": "2026-07-24T11:30:00+00:00",
     "end": "2026-07-24T12:30:00+00:00",
