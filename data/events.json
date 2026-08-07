@@ -200,41 +200,41 @@
     "location": "Azerbaijan"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Practice 1 (TBC)",
-    "start": "2026-10-02",
-    "end": "2026-10-03",
+    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Practice 1",
+    "start": "2026-10-02T04:30:00+00:00",
+    "end": "2026-10-02T05:30:00+00:00",
     "sport": "F1",
     "source": "Formula 1",
     "location": "Malaysia"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Practice 2 (TBC)",
-    "start": "2026-10-02",
-    "end": "2026-10-03",
+    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Practice 2",
+    "start": "2026-10-02T08:00:00+00:00",
+    "end": "2026-10-02T09:00:00+00:00",
     "sport": "F1",
     "source": "Formula 1",
     "location": "Malaysia"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Practice 3 (TBC)",
-    "start": "2026-10-03",
-    "end": "2026-10-04",
+    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Practice 3",
+    "start": "2026-10-03T04:30:00+00:00",
+    "end": "2026-10-03T05:30:00+00:00",
     "sport": "F1",
     "source": "Formula 1",
     "location": "Malaysia"
   },
   {
-    "title": "\u23f1\ufe0f FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Qualifying (TBC)",
-    "start": "2026-10-03",
-    "end": "2026-10-04",
+    "title": "\u23f1\ufe0f FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Qualifying",
+    "start": "2026-10-03T08:00:00+00:00",
+    "end": "2026-10-03T09:00:00+00:00",
     "sport": "F1",
     "source": "Formula 1",
     "location": "Malaysia"
   },
   {
-    "title": "\ud83c\udfc1 FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Race (TBC)",
-    "start": "2026-10-04",
-    "end": "2026-10-05",
+    "title": "\ud83c\udfc1 FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 - Race",
+    "start": "2026-10-04T07:00:00+00:00",
+    "end": "2026-10-04T09:00:00+00:00",
     "sport": "F1",
     "source": "Formula 1",
     "location": "Malaysia"
