@@ -438,5 +438,397 @@
     "sport": "F1",
     "source": "Formula 1",
     "location": "United Arab Emirates"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO PRE-SEASON TESTING 2027 - Practice 1 (TBC)",
+    "start": "2027-02-24",
+    "end": "2027-02-25",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO PRE-SEASON TESTING 2027 - Practice 2 (TBC)",
+    "start": "2027-02-25",
+    "end": "2027-02-26",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO PRE-SEASON TESTING 2027 - Practice 3 (TBC)",
+    "start": "2027-02-26",
+    "end": "2027-02-27",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO PRE-SEASON TESTING 2027 - Practice 4 (TBC)",
+    "start": "2027-02-27",
+    "end": "2027-02-28",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-03-12",
+    "end": "2027-03-13",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "start": "2027-03-12",
+    "end": "2027-03-13",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2027 - Sprint Race (TBC)",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-03-14",
+    "end": "2027-03-15",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Bahrain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-04-16",
+    "end": "2027-04-17",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "China"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-04-16",
+    "end": "2027-04-17",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "China"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-04-17",
+    "end": "2027-04-18",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "China"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-04-17",
+    "end": "2027-04-18",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "China"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-04-18",
+    "end": "2027-04-19",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "China"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HARD ROCK MIAMI GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-04-30",
+    "end": "2027-05-01",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HARD ROCK MIAMI GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-04-30",
+    "end": "2027-05-01",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HARD ROCK MIAMI GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-05-01",
+    "end": "2027-05-02",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 HARD ROCK MIAMI GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-05-01",
+    "end": "2027-05-02",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 HARD ROCK MIAMI GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-05-02",
+    "end": "2027-05-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfce FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-07-02",
+    "end": "2027-07-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Kingdom"
+  },
+  {
+    "title": "CALLED OFF: \u23f1\ufe0f FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "start": "2027-07-02",
+    "end": "2027-07-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Kingdom"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfc1 FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Sprint Race (TBC)",
+    "start": "2027-07-03",
+    "end": "2027-07-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Kingdom"
+  },
+  {
+    "title": "CALLED OFF: \u23f1\ufe0f FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-07-03",
+    "end": "2027-07-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Kingdom"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfc1 FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-07-04",
+    "end": "2027-07-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Kingdom"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfce FORMULA 1 QATAR AIRWAYS AUSTRIAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-07-09",
+    "end": "2027-07-10",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Austria"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfce FORMULA 1 QATAR AIRWAYS AUSTRIAN GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-07-09",
+    "end": "2027-07-10",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Austria"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfce FORMULA 1 QATAR AIRWAYS AUSTRIAN GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-07-10",
+    "end": "2027-07-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Austria"
+  },
+  {
+    "title": "CALLED OFF: \u23f1\ufe0f FORMULA 1 QATAR AIRWAYS AUSTRIAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-07-10",
+    "end": "2027-07-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Austria"
+  },
+  {
+    "title": "CALLED OFF: \ud83c\udfc1 FORMULA 1 QATAR AIRWAYS AUSTRIAN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-07-11",
+    "end": "2027-07-12",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Austria"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 LENOVO GRAN PREMIO DE ESPA\u00d1A  2027 - Practice 1 (TBC)",
+    "start": "2027-09-10",
+    "end": "2027-09-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Spain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 LENOVO GRAN PREMIO DE ESPA\u00d1A  2027 - Practice 2 (TBC)",
+    "start": "2027-09-10",
+    "end": "2027-09-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Spain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 LENOVO GRAN PREMIO DE ESPA\u00d1A  2027 - Practice 3 (TBC)",
+    "start": "2027-09-11",
+    "end": "2027-09-12",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Spain"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 LENOVO GRAN PREMIO DE ESPA\u00d1A  2027 - Qualifying (TBC)",
+    "start": "2027-09-11",
+    "end": "2027-09-12",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Spain"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 LENOVO GRAN PREMIO DE ESPA\u00d1A  2027 - Race (TBC)",
+    "start": "2027-09-12",
+    "end": "2027-09-13",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Spain"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-09-24",
+    "end": "2027-09-25",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Azerbaijan"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-09-24",
+    "end": "2027-09-25",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Azerbaijan"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-09-25",
+    "end": "2027-09-26",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Azerbaijan"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-09-25",
+    "end": "2027-09-26",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Azerbaijan"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-09-26",
+    "end": "2027-09-27",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Azerbaijan"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2027 - Practice 1 (TBC)",
+    "start": "2027-10-29",
+    "end": "2027-10-30",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Mexico"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2027 - Practice 2 (TBC)",
+    "start": "2027-10-29",
+    "end": "2027-10-30",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Mexico"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2027 - Practice 3 (TBC)",
+    "start": "2027-10-30",
+    "end": "2027-10-31",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Mexico"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2027 - Qualifying (TBC)",
+    "start": "2027-10-30",
+    "end": "2027-10-31",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Mexico"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2027 - Race (TBC)",
+    "start": "2027-10-31",
+    "end": "2027-11-01",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Mexico"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN GRANDE PR\u00caMIO DE S\u00c3O PAULO 2027 - Practice 1 (TBC)",
+    "start": "2027-11-05",
+    "end": "2027-11-06",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Brazil"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 HEINEKEN GRANDE PR\u00caMIO DE S\u00c3O PAULO 2027 - Sprint Qualification (TBC)",
+    "start": "2027-11-05",
+    "end": "2027-11-06",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Brazil"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 HEINEKEN GRANDE PR\u00caMIO DE S\u00c3O PAULO 2027 - Sprint Race (TBC)",
+    "start": "2027-11-06",
+    "end": "2027-11-07",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Brazil"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 HEINEKEN GRANDE PR\u00caMIO DE S\u00c3O PAULO 2027 - Qualifying (TBC)",
+    "start": "2027-11-06",
+    "end": "2027-11-07",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Brazil"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 HEINEKEN GRANDE PR\u00caMIO DE S\u00c3O PAULO 2027 - Race (TBC)",
+    "start": "2027-11-07",
+    "end": "2027-11-08",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Brazil"
   }
 ]
