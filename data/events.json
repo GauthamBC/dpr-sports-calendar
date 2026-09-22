@@ -512,6 +512,126 @@
     "location": "Bahrain"
   },
   {
+    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-03-19",
+    "end": "2027-03-20",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Saudi Arabia"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-03-19",
+    "end": "2027-03-20",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Saudi Arabia"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-03-20",
+    "end": "2027-03-21",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Saudi Arabia"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-03-20",
+    "end": "2027-03-21",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Saudi Arabia"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-03-21",
+    "end": "2027-03-22",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Saudi Arabia"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MO\u00cbT & CHANDON AUSTRALIAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-04-02",
+    "end": "2027-04-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Australia"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 MO\u00cbT & CHANDON AUSTRALIAN GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "start": "2027-04-02",
+    "end": "2027-04-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Australia"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 MO\u00cbT & CHANDON AUSTRALIAN GRAND PRIX 2027 - Sprint Race (TBC)",
+    "start": "2027-04-03",
+    "end": "2027-04-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Australia"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 MO\u00cbT & CHANDON AUSTRALIAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-04-03",
+    "end": "2027-04-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Australia"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 MO\u00cbT & CHANDON AUSTRALIAN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-04-04",
+    "end": "2027-04-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Australia"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 LENOVO JAPANESE GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-04-09",
+    "end": "2027-04-10",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Japan"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 LENOVO JAPANESE GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "start": "2027-04-09",
+    "end": "2027-04-10",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Japan"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 LENOVO JAPANESE GRAND PRIX 2027 - Sprint Race (TBC)",
+    "start": "2027-04-10",
+    "end": "2027-04-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Japan"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 LENOVO JAPANESE GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-04-10",
+    "end": "2027-04-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Japan"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 LENOVO JAPANESE GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-04-11",
+    "end": "2027-04-12",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Japan"
+  },
+  {
     "title": "\ud83c\udfce FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Practice 1 (TBC)",
     "start": "2027-04-16",
     "end": "2027-04-17",
@@ -590,6 +710,126 @@
     "sport": "F1",
     "source": "Formula 1",
     "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 AWS GRAND PRIX DU CANADA 2027 - Practice 1 (TBC)",
+    "start": "2027-05-21",
+    "end": "2027-05-22",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Canada"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 AWS GRAND PRIX DU CANADA 2027 - Sprint Qualification (TBC)",
+    "start": "2027-05-21",
+    "end": "2027-05-22",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Canada"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 AWS GRAND PRIX DU CANADA 2027 - Sprint Race (TBC)",
+    "start": "2027-05-22",
+    "end": "2027-05-23",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Canada"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 AWS GRAND PRIX DU CANADA 2027 - Qualifying (TBC)",
+    "start": "2027-05-22",
+    "end": "2027-05-23",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Canada"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 AWS GRAND PRIX DU CANADA 2027 - Race (TBC)",
+    "start": "2027-05-23",
+    "end": "2027-05-24",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Canada"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2027 - Practice 1 (TBC)",
+    "start": "2027-06-04",
+    "end": "2027-06-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Monaco"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2027 - Sprint Qualification (TBC)",
+    "start": "2027-06-04",
+    "end": "2027-06-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Monaco"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2027 - Sprint Race (TBC)",
+    "start": "2027-06-05",
+    "end": "2027-06-06",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Monaco"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2027 - Qualifying (TBC)",
+    "start": "2027-06-05",
+    "end": "2027-06-06",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Monaco"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2027 - Race (TBC)",
+    "start": "2027-06-06",
+    "end": "2027-06-07",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Monaco"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 1 (TBC)",
+    "start": "2027-06-18",
+    "end": "2027-06-19",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Portugal"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 2 (TBC)",
+    "start": "2027-06-18",
+    "end": "2027-06-19",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Portugal"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 3 (TBC)",
+    "start": "2027-06-19",
+    "end": "2027-06-20",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Portugal"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Qualifying (TBC)",
+    "start": "2027-06-19",
+    "end": "2027-06-20",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Portugal"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Race (TBC)",
+    "start": "2027-06-20",
+    "end": "2027-06-21",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Portugal"
   },
   {
     "title": "CALLED OFF: \ud83c\udfce FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Practice 1 (TBC)",
@@ -672,6 +912,126 @@
     "location": "Austria"
   },
   {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES BELGIAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-07-23",
+    "end": "2027-07-24",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Belgium"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES BELGIAN GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-07-23",
+    "end": "2027-07-24",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Belgium"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES BELGIAN GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-07-24",
+    "end": "2027-07-25",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Belgium"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 MSC CRUISES BELGIAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-07-24",
+    "end": "2027-07-25",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Belgium"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 MSC CRUISES BELGIAN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-07-25",
+    "end": "2027-07-26",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Belgium"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO HUNGARIAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-07-30",
+    "end": "2027-07-31",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Hungary"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO HUNGARIAN GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-07-30",
+    "end": "2027-07-31",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Hungary"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ARAMCO HUNGARIAN GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-07-31",
+    "end": "2027-08-01",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Hungary"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 ARAMCO HUNGARIAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-07-31",
+    "end": "2027-08-01",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Hungary"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 ARAMCO HUNGARIAN GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-08-01",
+    "end": "2027-08-02",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Hungary"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2027 - Practice 1 (TBC)",
+    "start": "2027-09-03",
+    "end": "2027-09-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Italy"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2027 - Sprint Qualification (TBC)",
+    "start": "2027-09-03",
+    "end": "2027-09-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Italy"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2027 - Sprint Race (TBC)",
+    "start": "2027-09-04",
+    "end": "2027-09-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Italy"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2027 - Qualifying (TBC)",
+    "start": "2027-09-04",
+    "end": "2027-09-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Italy"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2027 - Race (TBC)",
+    "start": "2027-09-05",
+    "end": "2027-09-06",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Italy"
+  },
+  {
     "title": "\ud83c\udfce FORMULA 1 LENOVO GRAN PREMIO DE ESPA\u00d1A  2027 - Practice 1 (TBC)",
     "start": "2027-09-10",
     "end": "2027-09-11",
@@ -752,6 +1112,126 @@
     "location": "Azerbaijan"
   },
   {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES TURKISH GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-10-01",
+    "end": "2027-10-02",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Turkey"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES TURKISH GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-10-01",
+    "end": "2027-10-02",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Turkey"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES TURKISH GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-10-02",
+    "end": "2027-10-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Turkey"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 MSC CRUISES TURKISH GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-10-02",
+    "end": "2027-10-03",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Turkey"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 MSC CRUISES TURKISH GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-10-03",
+    "end": "2027-10-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Turkey"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-10-08",
+    "end": "2027-10-09",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Singapore"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-10-08",
+    "end": "2027-10-09",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Singapore"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-10-09",
+    "end": "2027-10-10",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Singapore"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-10-09",
+    "end": "2027-10-10",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Singapore"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-10-10",
+    "end": "2027-10-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Singapore"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 PIRELLI UNITED STATES GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-10-22",
+    "end": "2027-10-23",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 PIRELLI UNITED STATES GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-10-22",
+    "end": "2027-10-23",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 PIRELLI UNITED STATES GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-10-23",
+    "end": "2027-10-24",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 PIRELLI UNITED STATES GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-10-23",
+    "end": "2027-10-24",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 PIRELLI UNITED STATES GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-10-24",
+    "end": "2027-10-25",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
     "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2027 - Practice 1 (TBC)",
     "start": "2027-10-29",
     "end": "2027-10-30",
@@ -830,5 +1310,125 @@
     "sport": "F1",
     "source": "Formula 1",
     "location": "Brazil"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-11-18",
+    "end": "2027-11-19",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2027 - Practice 2 (TBC)",
+    "start": "2027-11-18",
+    "end": "2027-11-19",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2027 - Practice 3 (TBC)",
+    "start": "2027-11-19",
+    "end": "2027-11-20",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-11-19",
+    "end": "2027-11-20",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-11-20",
+    "end": "2027-11-21",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United States"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-12-03",
+    "end": "2027-12-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Qatar"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "start": "2027-12-03",
+    "end": "2027-12-04",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Qatar"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2027 - Sprint Race (TBC)",
+    "start": "2027-12-04",
+    "end": "2027-12-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Qatar"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-12-04",
+    "end": "2027-12-05",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Qatar"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-12-05",
+    "end": "2027-12-06",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "Qatar"
+  },
+  {
+    "title": "\ud83c\udfce FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2027 - Practice 1 (TBC)",
+    "start": "2027-12-10",
+    "end": "2027-12-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Arab Emirates"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "start": "2027-12-10",
+    "end": "2027-12-11",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Arab Emirates"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2027 - Sprint Race (TBC)",
+    "start": "2027-12-11",
+    "end": "2027-12-12",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Arab Emirates"
+  },
+  {
+    "title": "\u23f1\ufe0f FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2027 - Qualifying (TBC)",
+    "start": "2027-12-11",
+    "end": "2027-12-12",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Arab Emirates"
+  },
+  {
+    "title": "\ud83c\udfc1 FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2027 - Race (TBC)",
+    "start": "2027-12-12",
+    "end": "2027-12-13",
+    "sport": "F1",
+    "source": "Formula 1",
+    "location": "United Arab Emirates"
   }
 ]
