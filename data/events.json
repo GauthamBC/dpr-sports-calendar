@@ -1,85 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 PIRELLI GRAN PREMIO D\u2019ITALIA 2026 - Practice 1",
-    "start": "2026-09-04T10:30:00+00:00",
-    "end": "2026-09-04T11:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Italy"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 PIRELLI GRAN PREMIO D\u2019ITALIA 2026 - Practice 2",
-    "start": "2026-09-04T14:00:00+00:00",
-    "end": "2026-09-04T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Italy"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 PIRELLI GRAN PREMIO D\u2019ITALIA 2026 - Practice 3",
-    "start": "2026-09-05T10:30:00+00:00",
-    "end": "2026-09-05T11:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Italy"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 PIRELLI GRAN PREMIO D\u2019ITALIA 2026 - Qualifying",
-    "start": "2026-09-05T14:00:00+00:00",
-    "end": "2026-09-05T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Italy"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 PIRELLI GRAN PREMIO D\u2019ITALIA 2026 - Race",
-    "start": "2026-09-06T13:00:00+00:00",
-    "end": "2026-09-06T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Italy"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 TAG HEUER GRAN PREMIO DE ESPA\u00d1A 2026 - Practice 1",
-    "start": "2026-09-11T11:30:00+00:00",
-    "end": "2026-09-11T12:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 TAG HEUER GRAN PREMIO DE ESPA\u00d1A 2026 - Practice 2",
-    "start": "2026-09-11T15:00:00+00:00",
-    "end": "2026-09-11T16:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 TAG HEUER GRAN PREMIO DE ESPA\u00d1A 2026 - Practice 3",
-    "start": "2026-09-12T10:30:00+00:00",
-    "end": "2026-09-12T11:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 TAG HEUER GRAN PREMIO DE ESPA\u00d1A 2026 - Qualifying",
-    "start": "2026-09-12T14:00:00+00:00",
-    "end": "2026-09-12T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 TAG HEUER GRAN PREMIO DE ESPA\u00d1A 2026 - Race",
-    "start": "2026-09-13T13:00:00+00:00",
-    "end": "2026-09-13T15:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Spain"
-  },
-  {
     "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 - Practice 1",
     "start": "2026-09-24T08:30:00+00:00",
     "end": "2026-09-24T09:30:00+00:00",
@@ -648,7 +568,7 @@
     "location": "China"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Practice 3 (TBC)",
+    "title": "\u23f1\ufe0f FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Qualifying (TBC)",
     "start": "2027-04-17",
     "end": "2027-04-18",
     "sport": "F1",
@@ -656,7 +576,7 @@
     "location": "China"
   },
   {
-    "title": "\u23f1\ufe0f FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Qualifying (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2027 - Practice 3 (TBC)",
     "start": "2027-04-17",
     "end": "2027-04-18",
     "sport": "F1",
