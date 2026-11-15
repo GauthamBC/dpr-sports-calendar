@@ -1,77 +1,5 @@
 [
   {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 - Practice 1",
-    "start": "2026-10-23T17:30:00+00:00",
-    "end": "2026-10-23T18:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United States"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 - Practice 2",
-    "start": "2026-10-23T21:00:00+00:00",
-    "end": "2026-10-23T22:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United States"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 - Practice 3",
-    "start": "2026-10-24T17:30:00+00:00",
-    "end": "2026-10-24T18:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United States"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 - Qualifying",
-    "start": "2026-10-24T21:00:00+00:00",
-    "end": "2026-10-24T22:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United States"
-  },
-  {
-    "title": "\ud83c\udfc1 FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 - Race",
-    "start": "2026-10-25T20:00:00+00:00",
-    "end": "2026-10-25T22:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "United States"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2026 - Practice 1",
-    "start": "2026-10-30T18:30:00+00:00",
-    "end": "2026-10-30T19:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Mexico"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2026 - Practice 2",
-    "start": "2026-10-30T22:00:00+00:00",
-    "end": "2026-10-30T23:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Mexico"
-  },
-  {
-    "title": "\ud83c\udfce FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2026 - Practice 3",
-    "start": "2026-10-31T17:30:00+00:00",
-    "end": "2026-10-31T18:30:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Mexico"
-  },
-  {
-    "title": "\u23f1\ufe0f FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2026 - Qualifying",
-    "start": "2026-10-31T21:00:00+00:00",
-    "end": "2026-10-31T22:00:00+00:00",
-    "sport": "F1",
-    "source": "Formula 1",
-    "location": "Mexico"
-  },
-  {
     "title": "\ud83c\udfc1 FORMULA 1 GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2026 - Race",
     "start": "2026-11-01T20:00:00+00:00",
     "end": "2026-11-01T22:00:00+00:00",
@@ -312,7 +240,7 @@
     "location": "Bahrain"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 1 (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 2 (TBC)",
     "start": "2027-03-19",
     "end": "2027-03-20",
     "sport": "F1",
@@ -320,7 +248,7 @@
     "location": "Saudi Arabia"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 2 (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2027 - Practice 1 (TBC)",
     "start": "2027-03-19",
     "end": "2027-03-20",
     "sport": "F1",
@@ -592,7 +520,7 @@
     "location": "Monaco"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 2 (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 1 (TBC)",
     "start": "2027-06-18",
     "end": "2027-06-19",
     "sport": "F1",
@@ -600,7 +528,7 @@
     "location": "Portugal"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 1 (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 MSC CRUISES GRANDE PR\u00c9MIO DE PORTUGAL 2027 - Practice 2 (TBC)",
     "start": "2027-06-18",
     "end": "2027-06-19",
     "sport": "F1",
@@ -632,7 +560,7 @@
     "location": "Portugal"
   },
   {
-    "title": "\u23f1\ufe0f FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Sprint Qualification (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Practice 1 (TBC)",
     "start": "2027-07-02",
     "end": "2027-07-03",
     "sport": "F1",
@@ -640,7 +568,7 @@
     "location": "United Kingdom"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Practice 1 (TBC)",
+    "title": "\u23f1\ufe0f FORMULA 1 TAG HEUER BRITISH GRAND PRIX 2027 - Sprint Qualification (TBC)",
     "start": "2027-07-02",
     "end": "2027-07-03",
     "sport": "F1",
@@ -888,7 +816,7 @@
     "location": "Azerbaijan"
   },
   {
-    "title": "\u23f1\ufe0f FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Qualifying (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Practice 3 (TBC)",
     "start": "2027-09-25",
     "end": "2027-09-26",
     "sport": "F1",
@@ -896,7 +824,7 @@
     "location": "Azerbaijan"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Practice 3 (TBC)",
+    "title": "\u23f1\ufe0f FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2027 - Qualifying (TBC)",
     "start": "2027-09-25",
     "end": "2027-09-26",
     "sport": "F1",
@@ -952,7 +880,7 @@
     "location": "Turkey"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 1 (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 2 (TBC)",
     "start": "2027-10-08",
     "end": "2027-10-09",
     "sport": "F1",
@@ -960,7 +888,7 @@
     "location": "Singapore"
   },
   {
-    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 2 (TBC)",
+    "title": "\ud83c\udfce FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2027 - Practice 1 (TBC)",
     "start": "2027-10-08",
     "end": "2027-10-09",
     "sport": "F1",
